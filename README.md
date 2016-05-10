@@ -14,7 +14,7 @@ python3 module for SainSmart iMatic TCP 8 Channel Relay
 - turn relay 3 off:
  _thread.start_new_thread(relaytcp.TCPrelayDotFour, ("3","off"))
 
-# or in terminal:
+# in terminal:
 - python3 relaytcp.py
 - then follow prompts...
 
