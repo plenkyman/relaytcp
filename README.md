@@ -1,8 +1,8 @@
 # relaytcp
 python3 module for SainSmart iMatic TCP 8 Channel Relay
 
-import relaytcp
-import _thread
+import relaytcp ### socket connection to 192.168.1.4 port 30000
+import _thread ### does not interupt the ongoing process
 
 examples:
 # turn all relays on:
