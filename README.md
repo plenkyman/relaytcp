@@ -1,4 +1,4 @@
-# tcprelay
+# relaytcp
 python3 module for SainSmart iMatic TCP 8 Channel Relay
 
 import relaytcp
