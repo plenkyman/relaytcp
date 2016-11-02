@@ -6,7 +6,7 @@ import os
 import sys
 import socket
 
-def TCPrelayDotFour(relay, state):
+def networkrelay(relay, state):
     if relay in ("ALL","All","all",):
         if state in ("ON","On","on"):
             msg = (b'\xFD\x02\x20\xF8\x88\x5D')
@@ -61,4 +61,4 @@ def TCPrelayDotFour(relay, state):
 if __name__ == "__main__":
     input1 = input("Wich Relay? (1 -8 or All): ")
     input2 = input("On or Off?: ")
-    TCPrelayDotFour(input1, input2)
+    networkrelay(input1, input2)
