@@ -6,13 +6,13 @@ python3 module for SainSmart iMatic TCP 8 Channel Relay
 
 # examples:
 - turn all relays on:
- _thread.start_new_thread(relaytcp.TCPrelayDotFour, ("all","on"))
+ _thread.start_new_thread(relaytcp.networkrelay, ("all","on"))
 - turn all relays off:
- _thread.start_new_thread(relaytcp.TCPrelayDotFour, ("all","off"))
+ _thread.start_new_thread(relaytcp.networkrelay, ("all","off"))
 - turn relay 3 on:
- _thread.start_new_thread(relaytcp.TCPrelayDotFour, ("3","on"))
+ _thread.start_new_thread(relaytcp.networkrelay, ("3","on"))
 - turn relay 3 off:
- _thread.start_new_thread(relaytcp.TCPrelayDotFour, ("3","off"))
+ _thread.start_new_thread(relaytcp.networkrelay, ("3","off"))
 
 # in terminal:
 - python3 relaytcp.py
